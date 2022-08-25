@@ -1,0 +1,7 @@
+To get the Find-Replace Run.lnk file to exicutable you will need to remove security from your PowerShell by running the command below:
+
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
+
+To turn the security back on you should run:
+
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
